@@ -19,7 +19,7 @@ export default function MultiSelect({ value, readOnly, placeholder }) {
     console.log(values);
     return (
         <div>
-            <div className='input--box'>
+            <div className='input-box'>
                 <input type={"text"} placeholder={placeholder} value={values} readOnly />
                 <i className={`arrow ${isopen ? "up" : "down"}`} onClick={handleDropdown}></i>
             </div>
