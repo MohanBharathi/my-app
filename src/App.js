@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <MultiSelect value={
-        [1,2,3,4]
+        [1,2,3,4,5]
       }/>
     </div>
   );
